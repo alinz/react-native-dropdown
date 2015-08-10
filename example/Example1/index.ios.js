@@ -12,7 +12,7 @@ var {
   View,
 } = React;
 
-var Select = require('./select');
+var Select = require('react-native-dropdown');
 
 var styles = StyleSheet.create({
   container: {
@@ -29,9 +29,30 @@ class Example1 extends Component {
 
   render() {
 
+    const options = [
+      {
+        label: 'News'
+      },
+      {
+        label: 'Design'
+      },
+      {
+        label: 'Sales'
+      },
+      {
+        label: 'Marketing'
+      },
+      {
+        label: 'Customer Success'
+      }
+    ];
+
     return (
       <View style={ styles.container }>
-        <Select/>
+        <Select
+          options={options}
+          defaultOption={4}
+          onSelect={(index) => { console.log(index, 'is selected.'); }}/>
       </View>
     );
   }

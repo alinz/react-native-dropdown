@@ -7,6 +7,6 @@
   },
   "dependencies": {
     "react-native": "git+ssh://git@github.com:alinz/react-native.git#v0.9-stable-es6",
-    "react-native-select": "../.."
+    "react-native-dropdown": "../.."
   }
 }

@@ -1,6 +1,6 @@
 {
-  "name": "react-native-select",
-  "version": "0.0.0",
+  "name": "react-native-dropdown",
+  "version": "0.0.1",
   "description": "A better Select dropdown menu for react-native",
   "main": "lib/index.js",
   "scripts": {
@@ -8,10 +8,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:alinz/react-native-select.git"
+    "url": "git@github.com:alinz/react-native-dropdown.git"
   },
   "peerDependencies": {
-    "react-native": "^0.8.0"
+    "react-native": "*"
   },
   "keywords": [
     "react-component",
@@ -24,7 +24,7 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/alinz/react-native-select"
+    "url": "https://github.com/alinz/react-native-dropdown"
   },
-  "homepage": "https://github.com/alinz/react-native-select"
+  "homepage": "https://github.com/alinz/react-native-dropdown"
 }
