@@ -38,7 +38,10 @@ class Example2 extends Component {
   render() {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-          <Select ref="SELECT1" optionListRef={this._getOptionList.bind(this)}>
+          <Select
+            ref="SELECT1"
+            optionListRef={this._getOptionList.bind(this)}
+            defaultValue="Hello2">
             <Option>Hello1</Option>
             <Option>Hello2</Option>
             <Option>Hello3</Option>

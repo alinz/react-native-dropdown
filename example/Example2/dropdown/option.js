@@ -28,7 +28,7 @@ class Option extends Component {
 }
 
 Option.propTypes = {
-
+  children: React.PropTypes.string.isRequired
 };
 
 module.exports = Option;

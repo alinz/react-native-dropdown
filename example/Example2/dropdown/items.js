@@ -6,16 +6,16 @@ const {
   Component,
   View,
   ScrollView,
-  TouchableWithoutFeedback
+  TouchableWithoutFeedback,
+  Text
 } = React;
 
 const window = Dimensions.get('window');
 
 const styles = StyleSheet.create({
   scrollView: {
-
     height: 120,
-    width: 198
+    width: 198 //TODO: this needs to be dynamic
   },
   container: {
     position: 'absolute',
@@ -38,15 +38,14 @@ class Items extends Component {
     }
 
     const renderedItems = React.Children.map(items, (item) => {
-      console.log(item);
       return (
-        <TouchableWithoutFeedback onPress={() => console.log("item.props.children") }>
-        {item}
+        <TouchableWithoutFeedback onPress={() => onPress(item.props.children) }>
+          <View style={{ padding: 10 }}>
+            <Text>{item.props.children}</Text>
+          </View>
         </TouchableWithoutFeedback>
       );
     });
-
-    console.log(renderedItems);
 
     return (
       <View style={[styles.container, { top: positionY, left: positionX }]}>

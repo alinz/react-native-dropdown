@@ -50,13 +50,14 @@ _onItemPress	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown
 render	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/optionList.js	/^  render() {$/;"	function	line:74
 constructor	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/items.js	/^  constructor(props) {$/;"	function	line:29
 render	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/items.js	/^  render() {$/;"	function	line:33
-Items.propTypes.positionX	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/items.js	/^Items.propTypes = {$/;"	property	line:64
-Items.defaultProps.positionX	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/items.js	/^Items.defaultProps = {$/;"	property	line:71
-Items.defaultProps.positionY	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/items.js	/^  positionX: 0,$/;"	property	line:72
-Items.defaultProps.show	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/items.js	/^  positionY: 0,$/;"	property	line:73
-Items.defaultProps.onPress	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/items.js	/^  show: false,$/;"	property	line:74
+Items.propTypes.positionX	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/items.js	/^Items.propTypes = {$/;"	property	line:63
+Items.defaultProps.positionX	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/items.js	/^Items.defaultProps = {$/;"	property	line:70
+Items.defaultProps.positionY	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/items.js	/^  positionX: 0,$/;"	property	line:71
+Items.defaultProps.show	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/items.js	/^  positionY: 0,$/;"	property	line:72
+Items.defaultProps.onPress	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/items.js	/^  show: false,$/;"	property	line:73
 constructor	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/option.js	/^  constructor(props) {$/;"	function	line:17
 render	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/option.js	/^  render() {$/;"	function	line:21
+Option.propTypes.children	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/option.js	/^Option.propTypes = {$/;"	property	line:30
 React	/Users/ali/projects/react-native-dropdown/example/Example2/index.ios.js	/^var React = require('react-native');$/;"	variable	line:5
 constructor	/Users/ali/projects/react-native-dropdown/example/Example2/index.ios.js	/^  constructor(props) {$/;"	function	line:23
 componentDidMount	/Users/ali/projects/react-native-dropdown/example/Example2/index.ios.js	/^  componentDidMount() {$/;"	function	line:27
