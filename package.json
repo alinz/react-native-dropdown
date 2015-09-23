@@ -1,6 +1,6 @@
 {
   "name": "react-native-dropdown",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A better Select dropdown menu for react-native",
   "main": "lib/index.js",
   "scripts": {

@@ -11,7 +11,7 @@ var {
   View,
 } = React;
 
-const DropDown = require('./dropdown');
+const DropDown = require('react-native-dropdown');
 const {
   Select,
   Option,
@@ -48,7 +48,7 @@ class Example2 extends Component {
   }
 
   _canada(province) {
-    
+
 
     this.setState({
       ...this.state,
