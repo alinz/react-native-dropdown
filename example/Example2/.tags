@@ -22,44 +22,53 @@ constructor	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown2
 render	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown2.js	/^  render() {$/;"	function	line:178
 exports	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/resetPosition.js	/^module.exports = function (ref, debug) {$/;"	function	line:9
 module.exports	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/resetPosition.js	/^} = React;$/;"	function	line:7
-constructor	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/select.js	/^  constructor(props) {$/;"	function	line:24
-_currentPosition	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/select.js	/^  _currentPosition(pageX, pageY) {$/;"	function	line:31
-_onPress	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/select.js	/^  _onPress() {$/;"	function	line:36
-render	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/select.js	/^  render() {$/;"	function	line:41
-Select.propTypes.width	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/select.js	/^Select.propTypes = {$/;"	property	line:55
-Select.defaultProps.width	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/select.js	/^Select.defaultProps = {$/;"	property	line:62
-Select.defaultProps.height	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/select.js	/^  width: 200,$/;"	property	line:63
-Select.defaultProps.onSelect	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/select.js	/^  height: 40,$/;"	property	line:64
 constructor	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/overlay.js	/^  constructor(props) {$/;"	function	line:30
 render	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/overlay.js	/^  render() {$/;"	function	line:34
 Overlay.propTypes.pageX	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/overlay.js	/^Overlay.propTypes = {$/;"	property	line:49
 Overlay.defaultProps.pageX	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/overlay.js	/^Overlay.defaultProps = {$/;"	property	line:55
 Overlay.defaultProps.pageY	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/overlay.js	/^  pageX: 0,$/;"	property	line:56
 Overlay.defaultProps.show	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/overlay.js	/^  pageY: 0,$/;"	property	line:57
-constructor	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/optionList.js	/^  constructor(props) {$/;"	function	line:15
-state.show	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/optionList.js	/^    this.state = {$/;"	property	line:18
-state.pageX	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/optionList.js	/^      show: false,$/;"	property	line:19
-state.pageY	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/optionList.js	/^      pageX: 0,$/;"	property	line:21
-state.positionX	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/optionList.js	/^      pageY: 0,$/;"	property	line:22
-state.positionY	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/optionList.js	/^      positionX: 0,$/;"	property	line:24
-state.items	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/optionList.js	/^      positionY: 0,$/;"	property	line:25
-_currentPosition	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/optionList.js	/^  _currentPosition(pageX, pageY) {$/;"	function	line:32
-_show	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/optionList.js	/^  _show(items, positionX, positionY, onSelect) {$/;"	function	line:40
-_onOverlayPress	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/optionList.js	/^  _onOverlayPress() {$/;"	function	line:54
-_onItemPress	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/optionList.js	/^  _onItemPress(item) {$/;"	function	line:64
-render	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/optionList.js	/^  render() {$/;"	function	line:74
-constructor	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/items.js	/^  constructor(props) {$/;"	function	line:29
-render	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/items.js	/^  render() {$/;"	function	line:33
-Items.propTypes.positionX	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/items.js	/^Items.propTypes = {$/;"	property	line:63
-Items.defaultProps.positionX	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/items.js	/^Items.defaultProps = {$/;"	property	line:70
-Items.defaultProps.positionY	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/items.js	/^  positionX: 0,$/;"	property	line:71
-Items.defaultProps.show	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/items.js	/^  positionY: 0,$/;"	property	line:72
-Items.defaultProps.onPress	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/items.js	/^  show: false,$/;"	property	line:73
 constructor	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/option.js	/^  constructor(props) {$/;"	function	line:17
 render	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/option.js	/^  render() {$/;"	function	line:21
 Option.propTypes.children	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/option.js	/^Option.propTypes = {$/;"	property	line:30
+constructor	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/optionList.js	/^  constructor(props) {$/;"	function	line:15
+state.show	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/optionList.js	/^    this.state = {$/;"	property	line:18
+state.width	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/optionList.js	/^      show: false,$/;"	property	line:19
+state.height	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/optionList.js	/^      width: 0,$/;"	property	line:21
+state.pageX	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/optionList.js	/^      height: 0,$/;"	property	line:22
+state.pageY	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/optionList.js	/^      pageX: 0,$/;"	property	line:24
+state.positionX	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/optionList.js	/^      pageY: 0,$/;"	property	line:25
+state.positionY	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/optionList.js	/^      positionX: 0,$/;"	property	line:27
+state.items	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/optionList.js	/^      positionY: 0,$/;"	property	line:28
+_currentPosition	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/optionList.js	/^  _currentPosition(pageX, pageY) {$/;"	function	line:35
+_show	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/optionList.js	/^  _show(items, positionX, positionY, width, height, onSelect) {$/;"	function	line:43
+_onOverlayPress	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/optionList.js	/^  _onOverlayPress() {$/;"	function	line:59
+_onItemPress	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/optionList.js	/^  _onItemPress(item) {$/;"	function	line:69
+render	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/optionList.js	/^  render() {$/;"	function	line:79
+constructor	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/items.js	/^  constructor(props) {$/;"	function	line:29
+render	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/items.js	/^  render() {$/;"	function	line:33
+Items.propTypes.positionX	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/items.js	/^Items.propTypes = {$/;"	property	line:63
+Items.defaultProps.width	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/items.js	/^Items.defaultProps = {$/;"	property	line:70
+Items.defaultProps.height	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/items.js	/^  width: 0,$/;"	property	line:71
+Items.defaultProps.positionX	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/items.js	/^  height: 0,$/;"	property	line:72
+Items.defaultProps.positionY	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/items.js	/^  positionX: 0,$/;"	property	line:73
+Items.defaultProps.show	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/items.js	/^  positionY: 0,$/;"	property	line:74
+Items.defaultProps.onPress	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/items.js	/^  show: false,$/;"	property	line:75
 React	/Users/ali/projects/react-native-dropdown/example/Example2/index.ios.js	/^var React = require('react-native');$/;"	variable	line:5
 constructor	/Users/ali/projects/react-native-dropdown/example/Example2/index.ios.js	/^  constructor(props) {$/;"	function	line:23
-componentDidMount	/Users/ali/projects/react-native-dropdown/example/Example2/index.ios.js	/^  componentDidMount() {$/;"	function	line:27
-_getOptionList	/Users/ali/projects/react-native-dropdown/example/Example2/index.ios.js	/^  _getOptionList() {$/;"	function	line:34
-render	/Users/ali/projects/react-native-dropdown/example/Example2/index.ios.js	/^  render() {$/;"	function	line:38
+state.canada	/Users/ali/projects/react-native-dropdown/example/Example2/index.ios.js	/^    this.state = {$/;"	property	line:26
+state.usa	/Users/ali/projects/react-native-dropdown/example/Example2/index.ios.js	/^      canada: '',$/;"	property	line:27
+componentDidMount	/Users/ali/projects/react-native-dropdown/example/Example2/index.ios.js	/^  componentDidMount() {$/;"	function	line:32
+_getOptionList	/Users/ali/projects/react-native-dropdown/example/Example2/index.ios.js	/^  _getOptionList() {$/;"	function	line:39
+_usa	/Users/ali/projects/react-native-dropdown/example/Example2/index.ios.js	/^  _usa(state) {$/;"	function	line:43
+_canada	/Users/ali/projects/react-native-dropdown/example/Example2/index.ios.js	/^  _canada(province) {$/;"	function	line:50
+render	/Users/ali/projects/react-native-dropdown/example/Example2/index.ios.js	/^  render() {$/;"	function	line:59
+constructor	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/select.js	/^  constructor(props) {$/;"	function	line:24
+state.value	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/select.js	/^    this.state = {$/;"	property	line:40
+_currentPosition	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/select.js	/^  _currentPosition(pageX, pageY) {$/;"	function	line:45
+_onPress	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/select.js	/^  _onPress() {$/;"	function	line:50
+render	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/select.js	/^  render() {$/;"	function	line:62
+Select.propTypes.width	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/select.js	/^Select.propTypes = {$/;"	property	line:76
+Select.defaultProps.width	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/select.js	/^Select.defaultProps = {$/;"	property	line:83
+Select.defaultProps.height	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/select.js	/^  width: 200,$/;"	property	line:84
+Select.defaultProps.onSelect	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/select.js	/^  height: 40,$/;"	property	line:85

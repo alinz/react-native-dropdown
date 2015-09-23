@@ -31,7 +31,7 @@ class Items extends Component {
   }
 
   render() {
-    const { items, positionX, positionY, show, onPress } = this.props;
+    const { items, positionX, positionY, show, onPress, width, height } = this.props;
 
     if (!show) {
       return null;
@@ -50,7 +50,7 @@ class Items extends Component {
     return (
       <View style={[styles.container, { top: positionY, left: positionX }]}>
         <ScrollView
-          style={styles.scrollView}
+          style={{ width: width - 2, height: height * 3 }}
           automaticallyAdjustContentInsets={false}
           bounces={false}>
           {renderedItems}
@@ -68,6 +68,8 @@ Items.propTypes = {
 };
 
 Items.defaultProps = {
+  width: 0,
+  height: 0,
   positionX: 0,
   positionY: 0,
   show: false,

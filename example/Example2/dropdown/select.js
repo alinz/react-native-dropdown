@@ -26,26 +26,47 @@ class Select extends Component {
 
     this.pageX = 0;
     this.pageY = 0;
+
+    let defaultValue = props.defaultValue;
+
+    if (!defaultValue) {
+      if (Array.isArray(props.children)) {
+        defaultValue = props.children[0].props.children;
+      } else {
+        defaultValue = props.children.props.children;
+      }
+    }
+
+    this.state = {
+      value: defaultValue
+    }
   }
 
   _currentPosition(pageX, pageY) {
     this.pageX = pageX;
-    this.pageY = pageY + 40;
+    this.pageY = pageY + this.props.height;
   }
 
   _onPress() {
-    const { optionListRef, children, onSelect } = this.props;
-    optionListRef()._show(children, this.pageX, this.pageY, onSelect);
+    const { optionListRef, children, onSelect, width, height } = this.props;
+    optionListRef()._show(children, this.pageX, this.pageY, width, height, (item) => {
+      if (item) {
+        onSelect(item);
+        this.setState({
+          value: item
+        });
+      }
+    });
   }
 
   render() {
-    const { width, height } = this.props;
+    const { width, height, children, defaultValue } = this.props;
     const selectStyle = { width, height };
 
     return (
       <TouchableWithoutFeedback onPress={this._onPress.bind(this)}>
         <View ref={SELECT} style={[styles.container, selectStyle]}>
-          <Option>Hello</Option>
+          <Option>{this.state.value}</Option>
         </View>
       </TouchableWithoutFeedback>
     );

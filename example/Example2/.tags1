@@ -4,8 +4,12 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
-React	/Users/ali/projects/react-native-dropdown/example/Example2/index.ios.js	/^var React = require('react-native');$/;"	variable	line:5
-constructor	/Users/ali/projects/react-native-dropdown/example/Example2/index.ios.js	/^  constructor(props) {$/;"	function	line:23
-componentDidMount	/Users/ali/projects/react-native-dropdown/example/Example2/index.ios.js	/^  componentDidMount() {$/;"	function	line:27
-_getOptionList	/Users/ali/projects/react-native-dropdown/example/Example2/index.ios.js	/^  _getOptionList() {$/;"	function	line:34
-render	/Users/ali/projects/react-native-dropdown/example/Example2/index.ios.js	/^  render() {$/;"	function	line:38
+constructor	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/select.js	/^  constructor(props) {$/;"	function	line:24
+state.value	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/select.js	/^    this.state = {$/;"	property	line:40
+_currentPosition	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/select.js	/^  _currentPosition(pageX, pageY) {$/;"	function	line:45
+_onPress	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/select.js	/^  _onPress() {$/;"	function	line:50
+render	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/select.js	/^  render() {$/;"	function	line:62
+Select.propTypes.width	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/select.js	/^Select.propTypes = {$/;"	property	line:76
+Select.defaultProps.width	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/select.js	/^Select.defaultProps = {$/;"	property	line:83
+Select.defaultProps.height	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/select.js	/^  width: 200,$/;"	property	line:84
+Select.defaultProps.onSelect	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/select.js	/^  height: 40,$/;"	property	line:85

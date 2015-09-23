@@ -18,6 +18,9 @@ class OptionList extends Component {
     this.state = {
       show: false,
 
+      width: 0,
+      height: 0,
+
       pageX: 0,
       pageY: 0,
 
@@ -37,7 +40,7 @@ class OptionList extends Component {
     });
   }
 
-  _show(items, positionX, positionY, onSelect) {
+  _show(items, positionX, positionY, width, height, onSelect) {
     positionX = positionX - this.state.pageX;
     positionY = positionY - this.state.pageY;
 
@@ -45,6 +48,8 @@ class OptionList extends Component {
       ...this.state,
       positionX,
       positionY,
+      width,
+      height,
       items,
       onSelect,
       show: true
@@ -78,6 +83,8 @@ class OptionList extends Component {
       pageY,
       positionX,
       positionY,
+      width,
+      height,
       show
     } = this.state;
 
@@ -92,6 +99,8 @@ class OptionList extends Component {
           items={items}
           positionX={positionX}
           positionY={positionY}
+          width={width}
+          height={height}
           show={show}
           onPress={ this._onItemPress.bind(this) }/>
       </View>
