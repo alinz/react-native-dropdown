@@ -1,0 +1,11 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+React	/Users/ali/projects/react-native-dropdown/example/Example2/index.ios.js	/^var React = require('react-native');$/;"	variable	line:5
+constructor	/Users/ali/projects/react-native-dropdown/example/Example2/index.ios.js	/^  constructor(props) {$/;"	function	line:23
+componentDidMount	/Users/ali/projects/react-native-dropdown/example/Example2/index.ios.js	/^  componentDidMount() {$/;"	function	line:27
+_getOptionList	/Users/ali/projects/react-native-dropdown/example/Example2/index.ios.js	/^  _getOptionList() {$/;"	function	line:34
+render	/Users/ali/projects/react-native-dropdown/example/Example2/index.ios.js	/^  render() {$/;"	function	line:38
