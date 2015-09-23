@@ -31,19 +31,15 @@ class Overlay extends Component {
     super(props);
   }
 
-  _onPress() {
-    console.log('clicked');
-  }
-
   render() {
-    const { pageX, pageY, show } = this.props;
+    const { pageX, pageY, show, onPress } = this.props;
 
     if (!show) {
       return null
     }
 
     return (
-      <TouchableWithoutFeedback style={styles.container} onPress={this._onPress.bind(this)}>
+      <TouchableWithoutFeedback style={styles.container} onPress={onPress}>
         <View style={[styles.overlay, { top: -pageY, left: -pageX }]}/>
       </TouchableWithoutFeedback>
     );

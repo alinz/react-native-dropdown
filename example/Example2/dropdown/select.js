@@ -34,8 +34,8 @@ class Select extends Component {
   }
 
   _onPress() {
-    const { optionListRef, children } = this.props;
-    optionListRef()._show(children, this.pageX, this.pageY);
+    const { optionListRef, children, onSelect } = this.props;
+    optionListRef()._show(children, this.pageX, this.pageY, onSelect);
   }
 
   render() {

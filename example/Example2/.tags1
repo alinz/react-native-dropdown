@@ -4,8 +4,14 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
-React	/Users/ali/projects/react-native-dropdown/example/Example2/index.ios.js	/^var React = require('react-native');$/;"	variable	line:5
-constructor	/Users/ali/projects/react-native-dropdown/example/Example2/index.ios.js	/^  constructor(props) {$/;"	function	line:23
-componentDidMount	/Users/ali/projects/react-native-dropdown/example/Example2/index.ios.js	/^  componentDidMount() {$/;"	function	line:27
-_getOptionList	/Users/ali/projects/react-native-dropdown/example/Example2/index.ios.js	/^  _getOptionList() {$/;"	function	line:34
-render	/Users/ali/projects/react-native-dropdown/example/Example2/index.ios.js	/^  render() {$/;"	function	line:38
+constructor	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/optionList.js	/^  constructor(props) {$/;"	function	line:15
+state.show	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/optionList.js	/^    this.state = {$/;"	property	line:18
+state.pageX	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/optionList.js	/^      show: false,$/;"	property	line:19
+state.pageY	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/optionList.js	/^      pageX: 0,$/;"	property	line:21
+state.positionX	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/optionList.js	/^      pageY: 0,$/;"	property	line:22
+state.positionY	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/optionList.js	/^      positionX: 0,$/;"	property	line:24
+state.items	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/optionList.js	/^      positionY: 0,$/;"	property	line:25
+_currentPosition	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/optionList.js	/^  _currentPosition(pageX, pageY) {$/;"	function	line:32
+_show	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/optionList.js	/^  _show(items, positionX, positionY, onSelect) {$/;"	function	line:40
+_onOverlayPress	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/optionList.js	/^  _onOverlayPress() {$/;"	function	line:54
+render	/Users/ali/projects/react-native-dropdown/example/Example2/dropdown/optionList.js	/^  render() {$/;"	function	line:64
