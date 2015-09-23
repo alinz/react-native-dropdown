@@ -40,7 +40,14 @@ class Example2 extends Component {
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
           <Select ref="SELECT1" optionListRef={this._getOptionList.bind(this)}>
             <Option>Hello1</Option>
+            <Option>Hello2</Option>
+            <Option>Hello3</Option>
+            <Option>Hello4</Option>
+            <Option>Hello5</Option>
+            <Option>Hello6</Option>
           </Select>
+
+          <View style={{ height: 10 }}/>
 
           <Select ref="SELECT2" optionListRef={this._getOptionList.bind(this)}>
             <Option>Hello1</Option>

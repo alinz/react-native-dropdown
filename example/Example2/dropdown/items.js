@@ -4,18 +4,24 @@ const {
   Dimensions,
   StyleSheet,
   Component,
-  ScrollView
+  View,
+  ScrollView,
+  TouchableWithoutFeedback
 } = React;
 
 const window = Dimensions.get('window');
 
 const styles = StyleSheet.create({
+  scrollView: {
+
+    height: 120,
+    width: 198
+  },
   container: {
     position: 'absolute',
     borderColor: '#BDBDC1',
     borderWidth: 2 / window.scale,
-    height: 120,
-    width: 200
+    borderTopColor: 'transparent',
   }
 })
 
@@ -25,18 +31,32 @@ class Items extends Component {
   }
 
   render() {
-    const { positionX, positionY, show } = this.props;
+    const { items, positionX, positionY, show, onPress } = this.props;
 
     if (!show) {
       return null;
     }
 
+    const renderedItems = React.Children.map(items, (item) => {
+      console.log(item);
+      return (
+        <TouchableWithoutFeedback onPress={() => console.log("item.props.children") }>
+        {item}
+        </TouchableWithoutFeedback>
+      );
+    });
+
+    console.log(renderedItems);
+
     return (
-      <ScrollView
-        style={[styles.container, { top: positionY, left: positionX }]}
-        automaticallyAdjustContentInsets={false}
-        bounces={false}>
-      </ScrollView>
+      <View style={[styles.container, { top: positionY, left: positionX }]}>
+        <ScrollView
+          style={styles.scrollView}
+          automaticallyAdjustContentInsets={false}
+          bounces={false}>
+          {renderedItems}
+        </ScrollView>
+      </View>
     );
   }
 }
@@ -44,13 +64,15 @@ class Items extends Component {
 Items.propTypes = {
   positionX: React.PropTypes.number,
   positionY: React.PropTypes.number,
-  show: React.PropTypes.bool
+  show: React.PropTypes.bool,
+  onPress: React.PropTypes.func
 };
 
 Items.defaultProps = {
   positionX: 0,
   positionY: 0,
-  show: false
+  show: false,
+  onPress: () => {}
 };
 
 module.exports = Items;

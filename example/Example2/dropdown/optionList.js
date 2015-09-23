@@ -61,13 +61,39 @@ class OptionList extends Component {
     });
   }
 
+  _onItemPress(item) {
+    const { onSelect } = this.state;
+    onSelect(item);
+
+    this.setState({
+      ...this.state,
+      show: false
+    });
+  }
+
   render() {
-    const { pageX, pageY, positionX, positionY, show } = this.state;
+    const {
+      items,
+      pageX,
+      pageY,
+      positionX,
+      positionY,
+      show
+    } = this.state;
 
     return (
       <View>
-        <Overlay pageX={pageX} pageY={pageY} show={show} onPress={ this._onOverlayPress.bind(this) }/>
-        <Items positionX={positionX} positionY={positionY} show={show}/>
+        <Overlay
+          pageX={pageX}
+          pageY={pageY}
+          show={show}
+          onPress={ this._onOverlayPress.bind(this) }/>
+        <Items
+          items={items}
+          positionX={positionX}
+          positionY={positionY}
+          show={show}
+          onPress={ this._onItemPress.bind(this) }/>
       </View>
     );
   }
