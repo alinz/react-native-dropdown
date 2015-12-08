@@ -1,6 +1,6 @@
 {
   "name": "react-native-dropdown",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A better Select dropdown menu for react-native",
   "main": "lib/index.js",
   "scripts": {
@@ -9,9 +9,6 @@
   "repository": {
     "type": "git",
     "url": "git@github.com:alinz/react-native-dropdown.git"
-  },
-  "peerDependencies": {
-    "react-native": "*"
   },
   "keywords": [
     "react-component",
