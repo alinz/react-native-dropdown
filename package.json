@@ -19,6 +19,7 @@
     "email": "a.najafizadeh@gmail.com",
     "url": "http://github.com/alinz"
   },
+  "contributors" : ["Azhar khan <azhar.mw@gmail.com>"],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/alinz/react-native-dropdown"
