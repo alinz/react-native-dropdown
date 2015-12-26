@@ -107,7 +107,7 @@ For complete implementation checkout example folder.
 ##### Select:
 | Property | Type | Default | Description |
 |---------------|----------|--------------|----------------------------------------------------------------|
-| style | number | 400 | Width of the selection |
+| width | number | 400 | Width of the selection |
 | height | number | 50 | Height of the selection |
 | optionListRef | function | required | Reference to ```<OptionList />``` to display the selection menu |
 | style | object | null | Custom styles to be applied if supplied |
