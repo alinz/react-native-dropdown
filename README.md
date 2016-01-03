@@ -20,7 +20,7 @@ This calculates component's PositionX and PositionY and sets it back into the co
 
 ## Example
 
-```
+```js
 var React = require('react-native');
 var {
   Component,
