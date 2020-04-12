@@ -88,7 +88,7 @@ class App extends Component {
             <Option>Yukon</Option>
           </Select>
 
-          <Text>Selected provicne of Canada: {this.state.canada}</Text>
+          <Text>Selected province of Canada: {this.state.canada}</Text>
           
           <OptionList ref="OPTIONLIST"/>
       </View>
